@@ -6,28 +6,37 @@ function App() {
 <html>
 
 <header>
-<div>
-  <h3>Logo</h3>
+<div className='logo'>
+ <img src='../assent/logo.png' alt='logo' />
 </div>
 <div><nav>
-  <li><a href='#'> Home</a></li>
-  <li><a href='#'> Contato</a></li>
-  <li><a href='#'>Login</a></li>
+  <li><a href='#'>Home</a></li>
+  <li><a href='#'>Sobre</a></li>
+  <li><a href='#'>Curriculo</a></li>
   </nav></div>
 </header>
 
    <main>
-    <section className='ponte-carrocel'>
+      <div className="container">
+        <div className='slides-carrocel'>
+          <input type="radio" name="radio" id="orkut" />
 
-    </section>
+          <div className="orkut">
+            <img src="../assent/carrocel/Logo_ORKUT.svg.png" alt="logo-orkut" />
+          </div>
+        </div>
+
+      </div>
    </main>
 
    <footer>
       <div className="icon">
-dbdffdb
+      <a href="https://www.instagram.com/mic_ofcial"><img src="../assent/icones/instagram.png" alt="instagram" /></a>
+      <a href="https://github.com/MickaelZ7"><img src="../assent/icones/github.png" alt="github" /></a>
+      <a href="https://www.linkedin.com/in/mickael-cypriano-da-rocha-a9b1801a1"><img src="../assent/icones/linkedin.png" alt="linkedin" /></a>
       </div>
       <div className="text">
-        bfdbdf
+        <p className='cont'>Contatos</p>
       </div>
    </footer>
 
